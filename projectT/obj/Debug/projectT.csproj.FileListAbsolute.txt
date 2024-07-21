@@ -1,0 +1,21 @@
+C:\Users\semoz\source\repos\projectT\projectT\bin\projectT.dll.config
+C:\Users\semoz\source\repos\projectT\projectT\bin\projectT.dll
+C:\Users\semoz\source\repos\projectT\projectT\bin\projectT.pdb
+C:\Users\semoz\source\repos\projectT\projectT\obj\Debug\projectT.csprojAssemblyReference.cache
+C:\Users\semoz\source\repos\projectT\projectT\obj\Debug\projectT.csproj.CoreCompileInputs.cache
+C:\Users\semoz\source\repos\projectT\projectT\obj\Debug\projectT.dll
+C:\Users\semoz\source\repos\projectT\projectT\obj\Debug\projectT.pdb
+C:\Users\semoz\OneDrive\Desktop\projectT\projectT\bin\projectT.dll.config
+C:\Users\semoz\OneDrive\Desktop\projectT\projectT\bin\projectT.dll
+C:\Users\semoz\OneDrive\Desktop\projectT\projectT\bin\projectT.pdb
+C:\Users\semoz\OneDrive\Desktop\projectT\projectT\obj\Debug\projectT.csprojAssemblyReference.cache
+C:\Users\semoz\OneDrive\Desktop\projectT\projectT\obj\Debug\projectT.csproj.CoreCompileInputs.cache
+C:\Users\semoz\OneDrive\Desktop\projectT\projectT\obj\Debug\projectT.dll
+C:\Users\semoz\OneDrive\Desktop\projectT\projectT\obj\Debug\projectT.pdb
+C:\Users\semoz\OneDrive\Desktop\Final WEB\projectT\projectT\bin\projectT.dll.config
+C:\Users\semoz\OneDrive\Desktop\Final WEB\projectT\projectT\bin\projectT.dll
+C:\Users\semoz\OneDrive\Desktop\Final WEB\projectT\projectT\bin\projectT.pdb
+C:\Users\semoz\OneDrive\Desktop\Final WEB\projectT\projectT\obj\Debug\projectT.csprojAssemblyReference.cache
+C:\Users\semoz\OneDrive\Desktop\Final WEB\projectT\projectT\obj\Debug\projectT.csproj.CoreCompileInputs.cache
+C:\Users\semoz\OneDrive\Desktop\Final WEB\projectT\projectT\obj\Debug\projectT.dll
+C:\Users\semoz\OneDrive\Desktop\Final WEB\projectT\projectT\obj\Debug\projectT.pdb

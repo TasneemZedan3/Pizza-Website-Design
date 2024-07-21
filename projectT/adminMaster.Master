@@ -1,0 +1,147 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="adminMaster.Master.cs" Inherits="projectT.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        .navbar {
+            width: 100%;
+            background-color: #cc3300;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .navbar a:hover {
+            background-color: #555;
+            color: white;
+        }
+
+        .navbar img {
+            float: right;
+            margin: 10px;
+            border-radius: 50%;
+        }
+
+        .welcome-text {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            padding: 20px 0;
+            background: #fff;
+            border-bottom: 2px solid #cc3300;
+        }
+
+        .content {
+            padding: 20px;
+            min-height: 600px;
+        }
+
+        .footer {
+            width: 100%;
+            background-color: #cc3300;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .footer .footer-section {
+            display: inline-block;
+            width: 30%;
+            vertical-align: top;
+            padding: 10px;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            padding: 5px 0;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .footer .social-links a {
+            display: inline-block;
+            margin: 5px 10px;
+            padding: 10px;
+            background-color: #fff;
+            color: #cc3300;
+            border-radius: 5px;
+        }
+
+        .footer .social-links a:hover {
+            background-color: #555;
+            color: white;
+        }
+
+        .footer .rights {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="navbar">
+            <asp:HyperLink ID="HyperLink11" runat="server" NavigateUrl="~/adminHomeMaster.aspx">Admin Home</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink10" runat="server" NavigateUrl="~/modifyMenu.aspx">Modify Menu</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink12" runat="server" NavigateUrl="~/MainPage.html">Logout</asp:HyperLink>
+            <asp:Image ID="adminIMG" runat="server" Height="102px" Width="124px" />
+        </div>
+        <div class="welcome-text">
+            ♥ <asp:Label ID="Label9" runat="server"></asp:Label> ♥
+        </div>
+        <div class="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="footer">
+            <div class="footer-section">
+                <asp:Label ID="Label4" runat="server" Text="Quick Links"></asp:Label>
+                <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/HomeMater.aspx">Home</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/CartMaster.aspx">Cart</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/HistoryMaster.aspx">History</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink9" runat="server" NavigateUrl="~/MainPage.html">Logout</asp:HyperLink>
+            </div>
+            <div class="footer-section">
+                <asp:Label ID="Label3" runat="server" Text="Need Help?"></asp:Label>
+                <asp:Label ID="Label5" runat="server" Text="Working Hours"></asp:Label>
+                <asp:Label ID="Label6" runat="server" Text="11:00 AM – 3:00 AM"></asp:Label>
+                <asp:Label ID="Label7" runat="server" Text="15667"></asp:Label>
+            </div>
+            <div class="footer-section">
+                <asp:Label ID="Label2" runat="server" Text="Contact Us"></asp:Label>
+                <div class="social-links">
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="https://www.instagram.com/roma_pizza/">Instagram</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="https://www.facebook.com/romapizza2go">Facebook</asp:HyperLink>
+                </div>
+            </div>
+            <div class="rights">
+                <asp:Label ID="Label1" runat="server" Text="&hearts;&copy; All rights reserved to Roma Pizza &hearts;"></asp:Label>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
